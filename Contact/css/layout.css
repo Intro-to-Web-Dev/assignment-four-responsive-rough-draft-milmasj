@@ -1,0 +1,49 @@
+html{
+    width: 1375px;
+    height: 1375px;
+    background-color: #FAF3D8;
+    margin: auto;
+}
+#personalinfo{
+    grid-auto-columns: auto;
+    width: 1375px;
+    height: 750px;
+    background-color: #6D6743 ;
+}
+header{
+    width: 100%;
+    height: 174px;
+    background-color:#6D6743 ;
+    margin: auto;
+}
+header div a{
+    text-decoration: none;
+    color: #FAF3D8;
+    float: right;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+    margin-right: 50px;
+}
+header div a:hover{
+    background-color: #2F2B11;
+    border-radius: 15px;
+}
+
+#pageInfo{
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-template-rows: repeat(2);
+    width: 1375px;
+    height: auto;
+    border: 5px solid #FAF3D8;
+    color:#F9F7F3;
+}
+#who{
+    margin-left: 300px; 
+    margin-top: 60px;
+    margin-right: 500px;
+    font-family: minion-pro, serif; 
+    font-style: normal;
+    font-weight: 400;
+}
